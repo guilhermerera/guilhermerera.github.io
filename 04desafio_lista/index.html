@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/style.css" type="text/css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Shade&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="./assets/to-do-list.png" type="image/png">
+
+    <title>To-do Easy List</title>
+
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1 class="Title">To-do <br> Easy List</h1>
+            <h2 class="subTitle">Organize seu dia de forma simples e rápida.</h2>
+        </div>
+    </header>
+    <main>
+        <div id="taskform">
+            <form>
+                <input id="taskentry" type="text"  placeholder="nova tarefa">
+                <div class="btncontainer">
+                    <p id="addtask" onclick="addTask(taskentry)">add</p>
+                    <p id="deltask" onclick="delTask()">del</p>
+                    <p id="cleartask" onclick="clearTask()">del all</p>
+                </div>    
+            </form>
+        </div>
+        <section id="list-container">
+            <h2 class="listTitle">Lista de Tarefas</h2>
+            <ul id="taskList"></ul>         
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+
+</html>
