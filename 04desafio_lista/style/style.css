@@ -119,6 +119,7 @@ main{
 #list-container{
     margin: 0px;
     padding: 0px;
+    overflow-y: auto;
 }
 
 #taskList{
