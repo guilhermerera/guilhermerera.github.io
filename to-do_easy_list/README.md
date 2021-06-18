@@ -15,4 +15,4 @@
 <br>
 
 # Find Me
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow@guilhermerera)](https://twitter.com/guilhermerera) [![Gmail Badge](https://img.shields.io/badge/-guilhermerera@gmail.com-f24f4f?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guilhermerera@gmail.com)](mailto:guilhermerera@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-ferreira-6841b023/) [![Gmail Badge](https://img.shields.io/badge/-guilhermerera@gmail.com-f24f4f?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guilhermerera@gmail.com)](mailto:guilhermerera@gmail.com) [![GitHub](https://img.shields.io/github/followers/guilhermerera.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/guilhermerera)
