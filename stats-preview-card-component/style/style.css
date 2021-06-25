@@ -1,0 +1,119 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 15px;
+    width: 375px;
+    height: 956px;
+    margin: auto;
+    padding: 25px;
+    background-color: hsl(233, 47%, 7%) ;
+}
+
+.desktop{
+    display: none;
+}
+
+.mainContainer{
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.colorBg {
+    height: 240px;
+    background-color: hsl(277, 64%, 61%);
+}
+
+.imgBg{
+    height: 100%;
+    opacity: 0.7;
+    mix-blend-mode: multiply;
+}
+
+.contentContainer{
+    padding: 20px;
+
+}
+.title {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+
+.title span{
+    color: hsl(277, 64%, 61%);
+}
+
+.mainParagraph{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7rem;
+    margin-bottom: 50px;
+}
+
+.statsNum{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 100%);
+    margin: 0px;
+}
+
+.statsSub {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    margin: 10px 0px 30px 0px;
+}
+
+@media only screen and (min-width: 1440px) {
+    body{
+        text-align: left;
+        width: 1440px;
+        height: 800px;
+        padding-top: 175px;
+    }
+    
+    .desktop{
+        display: inline;
+    }
+
+    .mobile {
+        display: none
+    }
+        
+    .mainContainer{
+        width: 1110px;
+        height: 445px;
+    }
+    
+    .colorBg {
+        float: right;
+        height: 100%;
+    }
+       
+    .contentContainer{
+        width: 40%;
+        margin-top: 25px;
+        margin-left: 60px;               
+    }
+
+    .title {
+        font-size: 36px;
+    }  
+
+    .statsDisplay{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+}
