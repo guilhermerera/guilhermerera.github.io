@@ -7,8 +7,8 @@
 
 <br>
 
-# Links
-Live Site URL: [Lucky Roll Live](https://guilhermerera.github.io/lucky_roll/)
+# Live View
+[Lucky Roll Live](https://guilhermerera.github.io/lucky_roll/)
 
 <br>
 
