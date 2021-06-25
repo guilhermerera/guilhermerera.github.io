@@ -10,7 +10,7 @@
 <br>
 
 # Live View
-[To-do Ease List Live](https://guilhermerera.github.io/to-do_easy_list/)
+[To-do Easy List Live](https://guilhermerera.github.io/to-do_easy_list/)
 
 <br>
 
