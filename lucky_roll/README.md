@@ -1,9 +1,14 @@
-# Lucky Roll
+# Lucky Roll 
 ## Project created for the ProgramadorBR's WebDev FullStack course.
 
 <br>
 
-### The project's proposal was to create a prize draw page where the user should input the max number to draw. It was pretty fun to code this project, so I hope you have fun taking a look at it. :)
+### The project's proposal was to create a prize draw page where the user should input a number so the systen could, randomly, draw a number between 1 and the input. It was pretty fun to code this project, so I hope you have fun taking a look at it. :)
+
+<br>
+
+# Links
+Live Site URL: [Lucky Roll Live](https://guilhermerera.github.io/lucky_roll/)
 
 <br>
 
