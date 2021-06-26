@@ -10,14 +10,23 @@
 <br>
 
 # | Live View
-- [Live Site URL](https://guilhermerera.github.io/stats-preview-card-component)
+- [Live Site Link](https://guilhermerera.github.io/stats-preview-card-component)
 - [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/html5-and-css3-section-TDKLPEujY)
 
 <br>
 
 # | What I learned
-How to create a responsive section, thinking about mobile first. How to correctly use float and media query, avoiding excessive CSS codes. And also how to write a really cool README file.
-Tell me what you think of my code! :)
+How to create a responsive section, thinking about mobile first. How to correctly use float, picture element and media query, avoiding excessive CSS codes. And also how to write a really cool README file. Tell me what you think of my code! :)
+
+
+- The Picture Element was one of those "WOW MOMENTS" for me.
+```html
+<picture>
+    <source srcset="./images/image-header-desktop.jpg"
+        media="(min-width: 1440px)">
+    <img class="imgBg" src="./images/image-header-mobile.jpg" alt="Group of Woman Working on Computers" />
+</picture>
+```
 
 <br>
 
