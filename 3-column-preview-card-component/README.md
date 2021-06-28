@@ -1,5 +1,5 @@
 # | 3-Column Preview Card Component
-## This is a solution to the [3-Column Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
+## This is a solution to the [3-Column Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 ### Project/Challange proposal was to build out this component where users should be able to view the optimal layout depending on their device's screen size and see hover states for interactive elements.
 
 <br><br>
