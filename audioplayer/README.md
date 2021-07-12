@@ -11,7 +11,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/audioplayer)
+- [Live Site Link](https://guilhermerera.github.io/audioplayer/)
 
 <br>
 
