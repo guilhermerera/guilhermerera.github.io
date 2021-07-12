@@ -78,6 +78,10 @@ body {
     color: hsl(227, 10%, 46%)
 }
 
+.name {
+    font-size: 18px;
+}
+
 .city {
     margin-bottom: 30px;
     font-size: 0.8em;
