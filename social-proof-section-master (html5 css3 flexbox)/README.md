@@ -10,7 +10,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/social-proof-section-master/)
+- [Live Site Link](https://guilhermerera.github.io/social-proof-section-master%20(html5%20css3%20flexbox)/)
 - [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-using-html5-and-css3-flex-box-_xzcRBj1V)
 
 <br>

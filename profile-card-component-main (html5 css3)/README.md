@@ -10,7 +10,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/profile-card-component-main/)
+- [Live Site Link](https://guilhermerera.github.io/profile-card-component-main%20(html5%20css3)/)
 - [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/html5-and-css3-profile-card-component-with-double-background-e35tlRlBF)
 
 <br>

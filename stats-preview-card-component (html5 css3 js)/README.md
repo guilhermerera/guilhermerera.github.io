@@ -10,7 +10,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/stats-preview-card-component)
+- [Live Site Link](https://guilhermerera.github.io/stats-preview-card-component%20(html5%20css3%20js)/)
 - [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/html5-and-css3-section-TDKLPEujY)
 
 <br>

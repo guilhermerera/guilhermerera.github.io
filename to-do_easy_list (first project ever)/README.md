@@ -11,7 +11,7 @@
 <br>
 
 # Live View
-[To-do Easy List Live](https://guilhermerera.github.io/to-do_easy_list/)
+[To-do Easy List Live](https://guilhermerera.github.io/to-do_easy_list%20(first%20project%20ever)/)
 
 <br>
 

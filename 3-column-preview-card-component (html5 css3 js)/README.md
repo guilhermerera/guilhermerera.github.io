@@ -10,7 +10,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/3-column-preview-card-component)
+- [Live Site Link](https://guilhermerera.github.io/3-column-preview-card-component%20(html5%20css3%20js)/)
 - [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/3-card-component-with-html-css-and-js-Sx4I0Mah2)
 
 <br>
