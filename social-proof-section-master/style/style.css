@@ -32,6 +32,7 @@ h1, h2, p {
 body {
   margin: 0px;
   padding: 0px;
+  height: 100vh;
   font-size: 15px;
   font-family: 'Spartan', sans-serif;
   background: url(../images/bg-pattern-top-desktop.svg) top left no-repeat,
@@ -243,4 +244,10 @@ img {
     margin-left: 20px;
     margin-bottom: 20px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .testimonialCard {
+    margin-left: 0px;
+}
 }
