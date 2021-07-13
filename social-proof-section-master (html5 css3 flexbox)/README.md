@@ -16,7 +16,33 @@
 <br>
 
 # | What I learned
-How to use flex box in a structure and how a flex container and flex items work with block and inline-block elements. I also tried to optmize my CSS with common classes and media queries.
+How to use flex box in a structure and how a flex container and flex items work with block and inline-block elements. I also tried to optmize my CSS with common classes, media queries and pseudo elements.
+
+~~~css
+.nameWrap::before {
+  content: "";
+  float: left;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
+}
+
+.nW1::before {
+  background-image: url(../images/image-colton.jpg);
+
+}
+
+.nW2::before {
+  background-image: url(../images/image-irene.jpg);
+}
+
+.nW3::before {
+  background-image: url(../images/image-anne.jpg);
+}
+~~~
 
 <br>
 
