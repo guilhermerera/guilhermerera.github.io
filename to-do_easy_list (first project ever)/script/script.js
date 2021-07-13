@@ -11,48 +11,43 @@ let tasks = []
 let tl = document.getElementById("taskList")
 console.log(tasks)
 
+// GERAR ID ALEATÓRIA
+function randomID(){
+    return Math.random() * 50
+}
+
 // CARREGAR E IMPRIMIR A LISTA SALVA
 onload = function(){
     let ol = localStorage.getItem("taskList")
     let ola = JSON.parse(ol)
     if (ola != null) {
         tasks = ola
-        console.log(ola)
-        ola.forEach(e => {
-            tl.innerHTML += "<li class='taskline'>" + e + "</li>"
+        ola.forEach((e) => {
+            tl.innerHTML += `<li class='tasklike'> ${e.conteudo} <button id='deltask' onlick=delTask(${e.id})>del</button></li>`
         }); 
     }
 }
 
 // ADICIONAR ITEM A LISTA
 function addTask() {
-
     let ntask = document.getElementById("taskentry").value 
-    console.log(ntask)
     if (ntask != "") {
-    tasks.push(ntask) 
-    console.log(tasks)
-    var index = tasks.indexOf(tasks[tasks.length - 1]);
-    tl.innerHTML += "<li class='taskline'>" + tasks[tasks.length - 1] + "</li>"
-    saveList(tasks)  
-    console.log(index) 
-    } else {
-        alert("Insira uma tarefa.")
-    }
-}
-
-   
+        let new_id = randomID()
+        tasks.push({ conteudo: ntask, id: new_id }) 
+        tl.innerHTML += `<li class='taskline'> ${tasks[tasks.length - 1].conteudo} <button id='deltask' onclick=delTask(${new_id})>del</button></li>`
+        saveList(tasks)
+        document.getElementById("taskentry").value = ""
+    } else {  alert("Insira uma tarefa.")  } }
 
 // DELETAR ITEM DA LISTA
 function delTask(id) {
-
-    tasks.pop()
-    tl.innerHTML = "" 
-    for (let i = 0; i < tasks.length; i++) {
-        tl.innerHTML += "<li class='taskline'>" + tasks[i] + "</li>"
-    }
-    console.log(tasks)
-    saveList(tasks)
+    itens = JSON.parse(localStorage.getItem("tasklist"))
+    new_list = []
+    for (let i = 0; i < itens.length; i++){
+        if (id != itens[i].id) {
+            new_list.push(itens[i]) } }
+    saveList(new_list)
+    location.reload()
 }
 
 // LIMPAR LISTA
