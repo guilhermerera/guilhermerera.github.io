@@ -60,14 +60,18 @@ function handleClick() {
     let position = this.id;
     if (handleMove(position)) {
         setTimeout(() => {
-            alert("Jogo acabou. O vencedor foi " + playerTime);
+            playerTime = (playerTime == 0) ? 1 : 0
+            alert("Game Over! The winner is " + symbols[playerTime]);
         }, 100)
         moves = 0
-        setTimeout(resetGame, 200)
+        setTimeout(()=>{
+            playerTime = (playerTime == 0) ? 1 : 0
+            resetGame()
+        }, 200)
     };
     if (isTie(position)) {
         setTimeout(() => {
-            alert("Jogo acabou. DEU VELHA");
+            alert("That's a DRAW! Let's try again.");
         }, 100)
         moves = 0
         setTimeout(resetGame, 200)
