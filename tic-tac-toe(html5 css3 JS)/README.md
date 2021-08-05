@@ -10,7 +10,7 @@
 <br>
 
 # | Live View
-- [Live Site Link](https://guilhermerera.github.io/tic-tac-toe(html5%20css3%20JS)/))
+- [Live Site Link](https://guilhermerera.github.io/tic-tac-toe(html5%20css3%20JS)/)
 
 <br>
 
