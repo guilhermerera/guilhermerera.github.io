@@ -1,11 +1,14 @@
 import Header from "./Header";
 import MainData from "./MainData";
 import Overview from "./Overview";
+import "./darktheme.min.css";
+// import "./lighttheme.min.css";
 import "./App.css";
 
 function App() {
 	return (
 		<main className='wrapper'>
+			<div className='bg-object'></div>
 			<Header
 				mainTitle='Social Media Dashboard'
 				subTitle='Total Followers: 23,004'></Header>
